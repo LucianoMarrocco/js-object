@@ -3,15 +3,21 @@ console.log("js caricato");
 const partita = {
     minutaggio: 60,
     squadraCasa: "Italia",
-    risultatoCasa: 2,
+    // risultatoCasa: 2
     marcatorisquadraCasa: ["Luciano", "Loris"],
-    risultatoOspite: 0,
+    // risultatoOspite: 0,
     marcatorisquadraOspiti: [""],
     squadraOspite: "Brasile",
+    getRH() {
+        return this.marcatorisquadraCasa.length
+    },
+    getRA() {
+        return this.marcatorisquadraOspitilength
+    },
     getadv() {
-        if (this.risultatoCasa > this.risultatoOspite) {
+        if (this.getRH() > this.getRA()) {
             return this.squadraCasa
-        } else if (this.risultatoCasa === this.risultatoOspite) {
+        } else if (this.getRH() === this.getRA()) {
             return "svegliatevi";
         } else {
             return this.squadraOspite
