@@ -6,14 +6,14 @@ const persona = {
     codicefiscale: "sjslsfoid",
     cittadinanza: "Italiana",
     residenza: {
-        indirizzo: "via Giovanni Boccaccio",
-        citta: "Castrigano de Greci",
-        provincia: "LE",
+        indirizzo: "via xy",
+        citta: "xy",
+        provincia: "xy",
 
     },
     lavoro: "Saldatore",
-    dataDiNascita: "27/04/1999",
-    luogoDiNascita: "Lecce",
+    dataDiNascita: "x/y/z",
+    luogoDiNascita: "xy",
 
 
 }
