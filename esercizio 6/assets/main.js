@@ -4,7 +4,7 @@ const partita = {
     minutaggio: 60,
     squadraCasa: "Italia",
     // risultatoCasa: 2
-    marcatorisquadraCasa: ["antonio", "sergio"],
+    marcatorisquadraCasa: ["Antonio", "Sergio"],
     // risultatoOspite: 0,
     marcatorisquadraOspiti: [""],
     squadraOspite: "Brasile",
