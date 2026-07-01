@@ -1,8 +1,8 @@
 console.log("js caricato");
 
 const persona = {
-    nome: "Luciano",
-    cognome: "Marrocco",
+    nome: "Tizio",
+    cognome: "Caio",
     codicefiscale: "sjslsfoid",
     cittadinanza: "Italiana",
     residenza: {
